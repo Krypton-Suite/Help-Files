@@ -13,7 +13,7 @@
     <RootNamespace>Full_Toolkit_Documentation</RootNamespace>
     <Name>Full_Toolkit_Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>Cross-platform (.NET Core/.NET Standard)</FrameworkVersion>
+    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>Full_Toolkit_Documentation</HtmlHelpName>
     <Language>en-US</Language>
