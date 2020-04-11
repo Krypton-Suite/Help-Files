@@ -15,7 +15,7 @@
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
-    <HtmlHelpName>Full_Toolkit_Documentation</HtmlHelpName>
+    <HtmlHelpName>Full Toolkit Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
       <Argument Key="logoFile" Value="Help.png" xmlns="" />
@@ -27,16 +27,16 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Docking.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Docking.xml" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Navigator.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Navigator.xml" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Ribbon.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Ribbon.xml" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Toolkit.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Toolkit.xml" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Workspace.dll" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Workspace.xml" xmlns="" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.xml" />
     </DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
