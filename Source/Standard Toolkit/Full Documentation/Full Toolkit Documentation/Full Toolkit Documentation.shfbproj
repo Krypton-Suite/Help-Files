@@ -13,9 +13,9 @@
     <RootNamespace>Full_Toolkit_Documentation</RootNamespace>
     <Name>Full_Toolkit_Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.7.2</FrameworkVersion>
+    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
-    <HtmlHelpName>Full_Toolkit_Documentation</HtmlHelpName>
+    <HtmlHelpName>Full Toolkit Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
       <Argument Key="logoFile" Value="Help.png" xmlns="" />
@@ -38,6 +38,24 @@
       <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.dll" xmlns="" />
       <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.xml" xmlns="" />
     </DocumentationSources>
+    <HelpFileFormat>HtmlHelp1</HelpFileFormat>
+    <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <IndentHtml>False</IndentHtml>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
+    <HelpTitle>Krypton toolkit library documentation</HelpTitle>
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <NamingMethod>Guid</NamingMethod>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <NamespaceGrouping>False</NamespaceGrouping>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <Preliminary>False</Preliminary>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
