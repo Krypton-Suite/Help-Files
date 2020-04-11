@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="2340ae7c-9ca8-4ca1-be11-e661d3a4e289" revisionNumber="1">
+<topic id="4234678b-f2e3-4696-aa23-abcf7763e036" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<introduction>
 			<para>Version [TODO: Version] was released on [TODO: Date].
@@ -21,7 +21,7 @@
 		</section>
 
 		<relatedTopics>
-			<link xlink:href="1695e877-53ae-415f-ad11-2c6534f6969b" />
+			<link xlink:href="898c1879-91ac-46b3-abb1-fe5e3da58ed1" />
 		</relatedTopics>
 
 	</developerConceptualDocument>

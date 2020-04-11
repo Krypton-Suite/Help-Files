@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="6b8f862d-e51c-426b-a09e-745805a5a564" visible="True" isDefault="true" isSelected="true" title="Welcome to the Krypton docking library documentation.">
+  <Topic id="d8f3d7e4-3063-4b93-a7f7-30ce9bd2c5da" visible="True" isDefault="true" isSelected="true" title="Welcome to the Krypton navigator docking documentation.">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
