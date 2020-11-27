@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="6f8ed89e-24ee-4ec2-9827-68e8052fd7dc" visible="True" isDefault="true" isSelected="true" title="Welcome to the Krypton toolkit suite library documentation.">
+  <Topic id="6f8ed89e-24ee-4ec2-9827-68e8052fd7dc" visible="True" isDefault="true" isSelected="true" title="Welcome to the Krypton standard toolkit suite library documentation.">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
