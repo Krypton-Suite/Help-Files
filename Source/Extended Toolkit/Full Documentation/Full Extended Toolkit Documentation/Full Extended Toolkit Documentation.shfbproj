@@ -13,9 +13,9 @@
     <RootNamespace>Full_Extended_Toolkit_Documentation</RootNamespace>
     <Name>Full_Extended_Toolkit_Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.7.2</FrameworkVersion>
+    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
-    <HtmlHelpName>Full_Extended_Toolkit_Documentation</HtmlHelpName>
+    <HtmlHelpName>Extended Toolkit Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
       <Argument Key="logoFile" Value="Help.png" xmlns="" />
@@ -73,7 +73,37 @@
       <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Utilities.xml" xmlns="" />
       <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Wizard.dll" xmlns="" />
       <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Wizard.xml" xmlns="" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Extended-Toolkit\Bin\Debug\Libraries\Krypton.Toolkit.Suite.Extended.Base\net48\EasyScintilla.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\Extended-Toolkit\Bin\Debug\Libraries\Krypton.Toolkit.Suite.Extended.Drawing.Suite\net48\Cyotek.Windows.Forms.ColorPicker.dll" />
     </DocumentationSources>
+    <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
+    <SyntaxFilters>Standard</SyntaxFilters>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <IndentHtml>False</IndentHtml>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
+    <HelpTitle>Extended Toolkit Documentation</HelpTitle>
+    <HelpFileVersion>5.550</HelpFileVersion>
+    <NamingMethod>Guid</NamingMethod>
+    <ContentPlacement>AboveNamespaces</ContentPlacement>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <NamespaceGrouping>False</NamespaceGrouping>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <Preliminary>False</Preliminary>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

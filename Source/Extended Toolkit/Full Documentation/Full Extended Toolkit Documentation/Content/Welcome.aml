@@ -2,8 +2,11 @@
 <topic id="82e810db-8c27-4efa-8109-06f3b8930e1b" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<introduction>
-			<para>This is a sample conceptual topic.  You can use this as a starting point for adding more conceptual
-content to your help project.</para>
+			<para>
+        Welcome to the extended toolkit documentation. The extended toolkit is a companion toolkit, to be used in tandem with the standard toolkit.
+        The toolkit has been developed from the now abandoned <legacyItalic>Extended Renderer</legacyItalic> project. There are 20+ modules included
+        in this toolkit, each designed for specific development scenarios.
+      </para>
 		</introduction>
 
 		<section>
