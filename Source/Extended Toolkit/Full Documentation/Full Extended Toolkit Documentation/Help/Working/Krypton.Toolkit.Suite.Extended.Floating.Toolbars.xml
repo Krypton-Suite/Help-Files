@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Krypton.Toolkit.Suite.Extended.Floating.Toolbars</name>
+    </assembly>
+    <members>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableMenuStrip.MenuStripPanelExtenedList">
+            <summary>
+            Gets or sets the tool strip panel extened list.
+            </summary>
+            <value>
+            The tool strip panel extened list.
+            </value>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableMenuStrip.IsFloating">
+            <summary>
+            Gets a value indicating whether this instance is floating.
+            </summary>
+            <value>
+              <c>true</c> if this instance is floating; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableMenuStrip.Visible">
+            <summary>
+            Gets or sets a value indicating whether the control and all its child controls are displayed.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableToolStrip.ToolStripPanelExtenedList">
+            <summary>
+            Gets or sets the tool strip panel extened list.
+            </summary>
+            <value>
+            The tool strip panel extened list.
+            </value>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableToolStrip.IsFloating">
+            <summary>
+            Gets a value indicating whether this instance is floating.
+            </summary>
+            <value>
+              <c>true</c> if this instance is floating; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.Floating.Toolbars.FloatableToolStrip.Visible">
+            <summary>
+            Gets or sets a value indicating whether the control and all its child controls are displayed.
+            </summary>
+        </member>
+    </members>
+</doc>

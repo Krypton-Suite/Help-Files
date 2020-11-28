@@ -1,0 +1,719 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Krypton.Toolkit.Suite.Extended.IO</name>
+    </assembly>
+    <members>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.CopyFiles">
+            <summary>
+            Copies a list of files or a directory tree to a destination
+            
+            Support for GUI is implamented by the ICopyFilesDiag interface
+            and passed to the class in the copy() method.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.CopyFiles.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.CopyFiles" /> class.</summary>
+            <param name="source">The source.</param>
+            <param name="destination">The destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.CopyFiles.#ctor(System.Collections.Generic.List{System.String},System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.CopyFiles" /> class.</summary>
+            <param name="sourceFiles">The source files.</param>
+            <param name="destination">The destination.</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.IconExtractor">
+            <summary>
+              <a href="https://stackoverflow.com/questions/42910628/is-there-a-way-to-get-the-windows-default-folder-icon-using-c">
+                <u>
+                  <font color="#0066cc">https://stackoverflow.com/questions/42910628/is-there-a-way-to-get-the-windows-default-folder-icon-using-c</font>
+                </u>
+              </a>
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ShellIcon">
+            <summary>
+            Summary description for ShellIcon.
+            </summary>
+            <summary>
+            Summary description for ShellIcon.  Get a small or large Icon with an easy C# function call
+            that returns a 32x32 or 16x16 System.Drawing.Icon depending on which function you call
+            either GetSmallIcon(string fileName) or GetLargeIcon(string fileName)
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative">
+            <summary>
+            Get a small or large Icon with an easy C# function call
+            that returns a 32x32 or 16x16 System.Drawing.Icon depending on which function you call
+            either GetSmallIcon(string fileName) or GetLargeIcon(string fileName)
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.Icon">
+            <summary>get icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.DisplayName">
+            <summary>get display name</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.TypeName">
+            <summary>get type name</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.Attributes">
+            <summary>get attributes</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.IconLocation">
+            <summary>get icon location</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.ExeType">
+            <summary>return exe type</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.SysIconIndex">
+            <summary>get system icon index</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.LinkOverlay">
+            <summary>put a link overlay on icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.Selected">
+            <summary>show icon in selected state</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.Attr_Specified">
+            <summary>get only specified attributes</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.LargeIcon">
+            <summary>get large icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.SmallIcon">
+            <summary>get small icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.OpenIcon">
+            <summary>get open icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.ShellIconSize">
+            <summary>get shell size icon</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.PIDL">
+            <summary>pszPath is a pidl</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.UseFileAttributes">
+            <summary>use passed dwFileAttribute</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.AddOverlays">
+            <summary>apply the appropriate overlays</summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.ShellIconNative.SHGFI.OverlayIndex">
+            <summary>Get the index of the overlay in the upper 8 bits of the iIcon</summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.TextUtilities.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.TextUtilities" /> class.</summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.TextUtilities.SearchForWord(System.String,Krypton.Toolkit.KryptonRichTextBox,System.Drawing.Color,System.Windows.Forms.RichTextBoxFinds)">
+            <summary>Searches for a selected word.
+            Adapted from: https://www.youtube.com/watch?v=a7LUa4vjuRE
+            </summary>
+            <param name="wordToFind">The word to find.</param>
+            <param name="target">The target <see cref="T:Krypton.Toolkit.KryptonRichTextBox" />.</param>
+            <param name="highlightColour">The text highlight colour.</param>
+            <param name="pattern">The pattern to find.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.TextUtilities.CountOccurrencesOfWord(System.String,System.String)">
+            <summary>
+            Counts the occurrences of a selected word.
+            Adapted from: https://stackoverflow.com/questions/41132147/how-to-count-specific-words-on-richtextbox/56585526
+            </summary>
+            <param name="textToSearch">The text to search.</param>
+            <param name="word">The word to search for.</param>
+            <returns>The number of the specified word.</returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.PopulateDirectoryInformation(System.String,Krypton.Toolkit.KryptonLabel)">
+            <summary>Populates the directory information.</summary>
+            <param name="directory">The directory.</param>
+            <param name="target">The target.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.ParseReadableSize(System.Int64)">
+            <summary>Parses the size of the readable.</summary>
+            <param name="size">The size.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.GetDirectorySize(System.IO.DirectoryInfo)">
+            <summary>
+             Gets the size of the directory.
+             https://stackoverflow.com/questions/468119/whats-the-best-way-to-calculate-the-size-of-a-directory-in-net
+            </summary>
+            <param name="directory">The directory.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.GetFileSize(System.String)">
+            <summary>Gets the size of the file.</summary>
+            <param name="filePath">The file path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.PopulateFileInformation(System.String,Krypton.Toolkit.KryptonLabel)">
+            <summary>Populates the file information.</summary>
+            <param name="file">The file.</param>
+            <param name="target">The target.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.GetFileHash(System.String,Krypton.Toolkit.Suite.Extended.Common.SupportedHashAlgorithims,Krypton.Toolkit.KryptonLabel)">
+            <summary>Gets the file hash.</summary>
+            <param name="filePath">The file path.</param>
+            <param name="hashType">Type of the hash.</param>
+            <param name="target">The target.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.Utilities.MakeHashString(System.Byte[])">
+            <summary>
+            Converts byte[] to string
+            </summary>
+            <param name="hash">The hash to convert</param>
+            <returns>Hash as string</returns>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.xDirectory">
+            <summary>
+            xDirectory - Copy Files and SubFolders.
+            https://www.codeproject.com/Articles/10040/xDirectory-Copy-Copy-Folder-SubFolders-and-Files
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._source">
+            <summary>
+            The Source Directory.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._destination">
+            <summary>
+            The Destination Directory.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._fileFilters">
+            <summary>
+            The File Filters for "GetFiles".
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._folderFilter">
+            <summary>
+            The Folder Filter for "GetDirectories".
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._overwrite">
+            <summary>
+            The Overwrite Setting: Whether or not to overwrite on copy.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._copierStatus">
+            <summary>
+            The Status of the xDirectory "StartCopy" Object.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectory._cancelCopy">
+            <summary>
+            The "Cancel" Setting. Set to true to Cancel the xDirectory.StartCopy Method.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.#ctor">
+            <summary>
+            The Default Constructor for the xDirectory Object
+            </summary>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.xDirectory.ItemIndexed">
+            <summary>
+            The 'Item Indexed' Event
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.OnItemIndexed(Krypton.Toolkit.Suite.Extended.IO.ItemIndexedEventArgs)">
+            <summary>
+            The 'On Item Indexed' Event Handler: Called when an Item (File or Folder) Is Indexed
+            </summary>
+            <param name="e">The 'Item Indexed' Event Arguments.</param>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.xDirectory.IndexComplete">
+            <summary>
+            The 'Index Complete' Event
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.OnIndexComplete(Krypton.Toolkit.Suite.Extended.IO.IndexCompleteEventArgs)">
+            <summary>
+            The 'On Index Complete' Event Handler: Called when Indexing of the Source Folder is Complete.
+            </summary>
+            <param name="e">The 'Index Complete' Event Arguments.</param>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.xDirectory.ItemCopied">
+            <summary>
+            The 'Item Copied' Event
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.OnItemCopied(Krypton.Toolkit.Suite.Extended.IO.ItemCopiedEventArgs)">
+            <summary>
+            The 'On Item Copied' Event Handler: Called when an Item (File or Folder) Is Copied from the Source to Destination
+            </summary>
+            <param name="e">The 'Item Copied' Event Arguments.</param>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.xDirectory.CopyComplete">
+            <summary>
+            The 'Copy Complete' Event
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.OnCopyComplete(Krypton.Toolkit.Suite.Extended.IO.CopyCompleteEventArgs)">
+            <summary>
+            The 'On Copy Complete' Event Handler: Called when Copying of the Source Folder to Destination Folder is Complete.
+            </summary>
+            <param name="e">The 'Item Copied' Event Arguments.</param>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.xDirectory.CopyError">
+            <summary>
+            The 'Copy Error' Event
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.OnCopyError(Krypton.Toolkit.Suite.Extended.IO.CopyErrorEventArgs)">
+            <summary>
+            The 'On Copy Error' Event Handler: Called when an Attempted Copy of a file Fails.
+            </summary>
+            <param name="e">The 'Copy Error' Event Arguments.</param>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.Source">
+            <summary>
+            The Source Directory.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.Destination">
+            <summary>
+            The Destination Directory.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.FileFilters">
+            <summary>
+            The File Filters for "GetFiles".
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.FolderFilter">
+            <summary>
+            The Folder Filter for "GetDirectories".
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.Overwrite">
+            <summary>
+            The Overwrite Setting: Whether or not to overwrite on copy.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.xDirectory.Status">
+            <summary>
+            The Status of the xDirectory.StartCopy Method
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Collections.Generic.List{System.String})">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilters">The File Filters.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilters">The File Filters.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilters">The File Filters.</param>
+            <param name="FolderFilter">The Folder Filter.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.IO.DirectoryInfo,System.IO.DirectoryInfo,System.Collections.Generic.List{System.String},System.String,System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilter">The File Filters.</param>
+            <param name="FolderFilter">The Folder Filter.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String,System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilter">The File Filter.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilter">The File Filter.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String,System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilter">The File Filter.</param>
+            <param name="FolderFilter">The Folder Filter.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.StartCopy(System.String,System.String,System.Collections.Generic.List{System.String},System.String,System.Boolean)">
+            <summary>
+            The 'Start Copy' Method: Async Call to Start the Copy Process.
+            </summary>
+            <param name="Source">The Source Directory.</param>
+            <param name="Destination">The Destination Directory.</param>
+            <param name="FileFilter">The File Filter.</param>
+            <param name="FolderFilter">The Folder Filter.</param>
+            <param name="Overwrite">Whether or not to force Overwrite on Destination.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.CancelCopy">
+            <summary>
+            The 'Cancel Copy' Method: To Cancel the Working Thread of the xDirectory.StartCopy Method.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.xDirectory.DoWork(System.Object)">
+            <summary>
+            The Main Work Method of the xDirectory Class: Handled in a Separate Thread.
+            </summary>
+            <param name="StateInfo">Undefined</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.User32API">
+            <summary>
+            Wraps necessary functions imported from User32.dll. Code courtesy of MSDN Cold Rooster Consulting example.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.User32API.DestroyIcon(System.IntPtr)">
+            <summary>
+            Provides access to function required to delete handle. This method is used internally
+            and is not required to be called separately.
+            </summary>
+            <param name="hIcon">Pointer to icon handle.</param>
+            <returns>N/A</returns>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus">
+            <summary>
+            The Various levels of Status for the xDirectory 'StartCopy' method.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus.STOPPED">
+            <summary>
+            The xDirectory Copy Thread is Stopped.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus.STARTED">
+            <summary>
+            The xDirectory Copy Thread is Starting.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus.INDEXING">
+            <summary>
+            The xDirectory Copy Thread is Indexing.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus.COPYINGDIRECTORIES">
+            <summary>
+            The xDirectory Copy Thread is Copying Folders.
+            </summary>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.xDirectoryStatus.COPYINGFILES">
+            <summary>
+            The xDirectory Copy Thread is Copying Files.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs.DirectoryPath">
+            <summary>Gets or sets the directory path.</summary>
+            <value>The directory path.</value>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs.#ctor(System.String)">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs" /> class.</summary>
+            <param name="directoryPath">The directory path.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs.GetDirectoryPath">
+            <summary>Gets the directory path.</summary>
+            <returns>The full path of the selected directory.</returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.#ctor(System.Collections.Generic.List{System.String})">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs" /> class.</summary>
+            <param name="fileListing">The file listing.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.#ctor(System.Collections.Generic.List{System.String},System.Windows.Forms.ProgressBar,System.Int32)">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs" /> class.</summary>
+            <param name="fileListing">The file listing.</param>
+            <param name="progressBar">The progress bar.</param>
+            <param name="progressBarMaximum">The progress bar maximum.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.#ctor(System.Collections.Generic.Stack{System.String})">
+            <summary>Initializes a new instance of the <see cref="T:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs" /> class.</summary>
+            <param name="fileStack">The file stack.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.AddToFileListStack(System.String)">
+            <summary>Adds to file list stack.</summary>
+            <param name="item">The item.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.AppendFileStack(System.String)">
+            <summary>Appends the file stack.</summary>
+            <param name="item">The item.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.GetFileListing">
+            <summary>Gets the file listing.</summary>
+            <returns>The list of contents.</returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.GetFileStack">
+            <summary>Gets the file stack.</summary>
+            <returns>The file stack.</returns>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs.UpdateProgressbarValue(System.Windows.Forms.ProgressBar,System.Int32)">
+            <summary>Updates the progressbar value.</summary>
+            <param name="progressBar">The progress bar.</param>
+            <param name="currentValue">The current value.</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ItemIndexedEventHandler">
+            <summary>
+            The 'Item Indexed' Event Handler Delegate
+            </summary>
+            <param name="sender">The Object that sent the Event</param>
+            <param name="e">The 'Item Indexed' Event Argument</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.IndexCompleteEventHandler">
+            <summary>
+            The 'Index Complete' Event Handler Delegate
+            </summary>
+            <param name="sender">The Object that sent the Event</param>
+            <param name="e">The 'Index Complete' Event Argument</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ItemCopiedEventHandler">
+            <summary>
+            The 'Item Copied' Event Handler Delegate
+            </summary>
+            <param name="sender">The Object that sent the Event</param>
+            <param name="e">The 'Item Copied' Event Argument</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.CopyCompleteEventHandler">
+            <summary>
+            The 'Copy Complete' Event Handler Delegate
+            </summary>
+            <param name="sender">The Object that sent the Event</param>
+            <param name="e">The 'Copy Complete' Event Argument</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.CopyErrorEventHandler">
+            <summary>
+            The 'Copy Error' Event Handler Delegate
+            </summary>
+            <param name="sender">The Object that sent the Event</param>
+            <param name="e">The 'Copy Error' Event Argument</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ItemIndexedEventArgs">
+            <summary>
+            The 'Item Indexed' Event Argument
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.IndexCompleteEventArgs">
+            <summary>
+            The 'Index Complete' Event Argument
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.ItemCopiedEventArgs">
+            <summary>
+            The 'Item Copied' Event Argument
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.CopyCompleteEventArgs">
+            <summary>
+            The 'Copy Complete' Event Argument
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.CopyErrorEventArgs">
+            <summary>
+            The 'Copy Error' Event Argument
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.icon">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnAdd_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnBack_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnGo_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnHome_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnInfo_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnNext_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnRefresh_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Krypton.Toolkit.Suite.Extended.IO.Properties.Resources.kbtnUp_Values_Image">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.KryptonExplorer">
+            <summary>
+            A file explorer see: https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/creating-an-explorer-style-interface-with-the-listview-and-treeview
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileListing.OnDirectoryPathChanged(System.Object,Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs)">
+            <summary>Called when [directory path changed].</summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:Krypton.Toolkit.Suite.Extended.IO.DirectoryPathChangedEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileListing.OnGatherFiles(System.Object,Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs)">
+            <summary>Called when [gather files].</summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:Krypton.Toolkit.Suite.Extended.IO.FileGathererEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileListing.PopulateListBox(Krypton.Toolkit.KryptonListBox,System.String,System.String,System.Boolean,System.Boolean,System.IO.SearchOption)">
+            <summary>Populates the ListBox.</summary>
+            <param name="container">The container.</param>
+            <param name="directory">The directory.</param>
+            <param name="fileType">Type of the file.</param>
+            <param name="useFullPath">if set to <c>true</c> [use full path].</param>
+            <param name="propagateList">if set to <c>true</c> [propagate list].</param>
+            <param name="searchOption">The search option.</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl">
+            <summary>
+            
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.PathChangedEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.PathChangedEvent">
+            <summary>
+            The path changed event
+            </summary>
+        </member>
+        <member name="E:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.PathChanged">
+            <summary>
+            Occurs when [path changed].
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.RefreshView">
+            <summary>
+            Refreshes the view.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.ResetTreeLocation">
+            <summary>
+            Resets the tree location.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.ResetTopPanelLocation">
+            <summary>
+            Resets the top panel location.
+            </summary>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.RelocateToolbarItems(System.Drawing.Point,System.Drawing.Point,System.Drawing.Size,System.Drawing.Size)">
+            <summary>
+            Relocates the toolbar items.
+            </summary>
+            <param name="searchBarLocation">The search bar location.</param>
+            <param name="goButtonLocation">The go button location.</param>
+            <param name="topPanelSize">Size of the top panel.</param>
+            <param name="treeViewSize">Size of the tree view.</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.SetToolbarVisibility(System.Boolean)">
+            <summary>
+            Sets the toolbar visibility.
+            </summary>
+            <param name="visibleValue">if set to <c>true</c> [visible value].</param>
+        </member>
+        <member name="M:Krypton.Toolkit.Suite.Extended.IO.KryptonFileSystemUserControl.RelocateButton(Krypton.Toolkit.KryptonButton,System.Drawing.Point)">
+            <summary>
+            Relocates the button.
+            </summary>
+            <param name="targetButton">The target button.</param>
+            <param name="location">The location.</param>
+        </member>
+        <member name="T:Krypton.Toolkit.Suite.Extended.IO.KryptonTaskManager">
+            <summary>
+            https://ourcodeworld.com/articles/read/439/how-to-list-all-windows-processes-and-their-attributes-task-manager-like-with-c-in-winforms
+            </summary>
+            <seealso cref="T:Krypton.Toolkit.KryptonForm" />
+        </member>
+    </members>
+</doc>

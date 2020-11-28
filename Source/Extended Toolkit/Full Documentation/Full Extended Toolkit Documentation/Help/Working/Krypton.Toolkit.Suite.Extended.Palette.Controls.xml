@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Krypton.Toolkit.Suite.Extended.Palette.Controls</name>
+    </assembly>
+    <members>
+        <member name="M:Krypton.Toolkit.Suite.Extended.Palette.Controls.BasicPaletteColourUserControl.FillColourArray(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+            <summary>Fills the colour array.</summary>
+            <param name="baseColour">The base colour.</param>
+            <param name="darkestColour">The darkest colour.</param>
+            <param name="darkColour">The dark colour.</param>
+            <param name="mediumColour">The medium colour.</param>
+            <param name="lightColour">The light colour.</param>
+            <param name="lightestColour">The lightest colour.</param>
+        </member>
+    </members>
+</doc>
