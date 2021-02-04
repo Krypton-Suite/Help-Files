@@ -27,67 +27,86 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Base.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Base.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Common.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Common.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Core.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Core.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Data.Visualisation.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Data.Visualisation.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Dialogs.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Dialogs.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Drawing.Suite.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Drawing.Suite.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Global.Utilities.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Global.Utilities.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.IO.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.IO.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Language.Model.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Language.Model.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Navigator.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Navigator.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Notifications.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Notifications.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Palette.Controls.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Palette.Controls.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Palette.Utilities.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Palette.Utilities.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Resources.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Resources.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Rounded.Controls.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Rounded.Controls.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Settings.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Settings.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Software.Updater.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Software.Updater.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Standard.Controls.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Standard.Controls.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Tool.Strip.Items.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Tool.Strip.Items.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Utilities.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Utilities.xml" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Wizard.dll" xmlns="" />
-      <DocumentationSource sourceFile="M:\Extended-Toolkit\Full\Krypton.Toolkit.Suite.Extended.Wizard.xml" xmlns="" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Extended-Toolkit\Bin\Debug\Libraries\Krypton.Toolkit.Suite.Extended.Base\net48\EasyScintilla.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Extended-Toolkit\Bin\Debug\Libraries\Krypton.Toolkit.Suite.Extended.Drawing.Suite\net48\Cyotek.Windows.Forms.ColorPicker.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\CommandLine.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Cyotek.Windows.Forms.ColorPicker.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\EasyScintilla.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Docking.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Navigator.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Ribbon.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Base.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Base.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.Suite.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.Suite.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Common.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Common.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Core.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Core.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Data.Visualisation.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Data.Visualisation.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Dialogs.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Dialogs.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Drawing.Suite.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Drawing.Suite.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Global.Utilities.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Global.Utilities.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.IO.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.IO.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Language.Model.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Language.Model.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Navigator.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Navigator.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Notifications.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Notifications.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Controller.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Controller.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Controls.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Controls.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Selectors.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Palette.Selectors.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Resources.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Resources.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Rounded.Controls.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Rounded.Controls.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Settings.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Settings.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Software.Updater.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Software.Updater.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Standard.Controls.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Standard.Controls.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Task.Dialogs.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Task.Dialogs.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Toggle.Switch.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Toggle.Switch.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Tool.Strip.Items.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Tool.Strip.Items.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Toolkit.Control.Settings.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Toolkit.Control.Settings.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Utilities.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Utilities.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Wizard.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Extended.Wizard.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Toolkit.Suite.Zip.Extractor.xml" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Krypton.Workspace.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Microsoft.WindowsAPICodePack.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Microsoft.WindowsAPICodePack.Sensors.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Microsoft.WindowsAPICodePack.Shell.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Microsoft.WindowsAPICodePack.ShellExtensions.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Newtonsoft.Json.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\ScintillaNET.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\System.ValueTuple.dll" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\Zip Extractor.exe" />
+      <DocumentationSource sourceFile="..\..\..\..\..\..\..\Krypton\Binaries\net48\ZipStorer.dll" />
     </DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
-    <SyntaxFilters>Standard</SyntaxFilters>
+    <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>
     <CleanIntermediates>True</CleanIntermediates>
     <KeepLogFile>True</KeepLogFile>
