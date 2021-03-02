@@ -27,17 +27,16 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Docking.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Navigator.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Ribbon.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Toolkit.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\net48\Krypton.Workspace.xml" />
-    </DocumentationSources>
+      <DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Docking.dll" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Docking.xml" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Navigator.dll" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Navigator.xml" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Ribbon.dll" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Ribbon.xml" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Toolkit.dll" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Toolkit.xml" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Workspace.dll" />
+<DocumentationSource sourceFile="P:\Development\Krypton Releases\Current\Binaries\DLLs\net48\Krypton.Workspace.xml" /></DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>
@@ -78,13 +77,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Content" />
-    <Folder Include="Content\VersionHistory" />
     <Folder Include="icons" />
     <Folder Include="media" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\VersionHistory\v1.0.0.0.aml" />
-    <None Include="Content\VersionHistory\VersionHistory.aml" />
     <None Include="Content\Welcome.aml" />
   </ItemGroup>
   <ItemGroup>
