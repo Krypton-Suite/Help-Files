@@ -62,12 +62,25 @@
       <content>
         <para>
           The Krypton Docking set of components allow the user to drag and drop docking pages into new locations in order to customize the organization 
-          of the application content. It allows this in a way similar to that of Visual Studio 2008/2010. Each docking area uses an instance of the 
+          of the application content. It allows this in a way similar to that of Visual Studio 2008/2019. Each docking area uses an instance of the 
           Krypton Workspace allowing a wide range of options for organizing and displaying pages. It integrates with the Krypton Toolkit architecture to 
           ensure a consistent look and feel.
         </para>
       </content>
     </section>
+    
+    <!--<section>
+      <title>Useful Links</title>
+      <content>
+        <para>
+          GitHub: <a href="https://github.com/Krypton-Suite/Standard-Toolkit">source code</a>
+          
+          Online Help: <a href="https://krypton-suite.github.io/Standard-Toolkit-Online-Help/Source/Help/Output/index.html">documentation</a>
+          
+          Themes: <a href="https://www.nuget.org/packages/Krypton.Toolkit.Themes/">user curated themes</a>
+        </para>
+      </content>
+    </section>-->
 
 		<relatedTopics>
 			<!--<link xlink:href="8cf670f0-02be-4ea1-bf01-c6a788d339e8" />-->
