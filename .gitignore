@@ -318,3 +318,11 @@ OpenCover/
 *.org
 *.org
 *.ini
+*.xml
+*.txt
+*.all
+*.nofilenames
+*.config
+*.old
+*.htm
+*.tokens
