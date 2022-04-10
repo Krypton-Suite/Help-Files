@@ -27,18 +27,17 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Docking.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Docking.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Navigator.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Navigator.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Ribbon.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Ribbon.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Toolkit.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Toolkit.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Workspace.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\Krypton\Help\Krypton.Workspace.xml" />
-    </DocumentationSources>
-    <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
+      <DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Docking.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Docking.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Navigator.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Navigator.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Ribbon.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Ribbon.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Toolkit.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Toolkit.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Workspace.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Workspace.xml" /></DocumentationSources>
+    <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>
     <CleanIntermediates>True</CleanIntermediates>
@@ -48,7 +47,7 @@
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Krypton standard toolkt documentation</HelpTitle>
-    <HelpFileVersion>60.22.2.32</HelpFileVersion>
+    <HelpFileVersion>65.22.4.94</HelpFileVersion>
     <NamingMethod>Guid</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>
@@ -58,6 +57,11 @@
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <FooterText>For more information, please go to: https://github.com/Krypton-Suite/Standard-Toolkit</FooterText>
     <CopyrightText>%28c%29 Krypton Suite 2017 - 2022</CopyrightText>
+    <HtmlSdkLinkType>Msdn</HtmlSdkLinkType>
+    <BinaryTOC>True</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <WebsiteSdkLinkType>Msdn</WebsiteSdkLinkType>
+    <AppendMarkdownFileExtensionsToUrls>True</AppendMarkdownFileExtensionsToUrls>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
