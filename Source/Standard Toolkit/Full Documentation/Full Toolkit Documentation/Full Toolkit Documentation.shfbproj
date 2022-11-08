@@ -13,7 +13,7 @@
     <RootNamespace>Full_Toolkit_Documentation</RootNamespace>
     <Name>Full_Toolkit_Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
+    <FrameworkVersion>.NET Core/.NET Standard/.NET 5.0+</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>Standard Toolkit Documentation</HtmlHelpName>
     <Language>en-US</Language>
@@ -27,16 +27,16 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Docking.dll" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Docking.xml" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Navigator.dll" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Navigator.xml" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Ribbon.dll" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Ribbon.xml" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Toolkit.dll" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Toolkit.xml" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Workspace.dll" />
-<DocumentationSource sourceFile="..\..\..\..\..\Theme-Palettes\Applications\Source\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Krypton.Workspace.xml" /></DocumentationSources>
+      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Docking.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Docking.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Navigator.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Navigator.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Ribbon.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Ribbon.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Toolkit.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Toolkit.xml" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Workspace.dll" />
+<DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Release\netcoreapp3.1\Krypton.Workspace.xml" /></DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
     <PresentationStyle>VS2013</PresentationStyle>
@@ -47,7 +47,7 @@
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Krypton standard toolkt documentation</HelpTitle>
-    <HelpFileVersion>65.22.4.94</HelpFileVersion>
+    <HelpFileVersion>70.22.11.312</HelpFileVersion>
     <NamingMethod>Guid</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>

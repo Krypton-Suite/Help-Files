@@ -27,59 +27,6 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Handlebars.NET.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Handlebars.NET.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Ribbon.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Circular.Progress.Bar.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Common.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Common.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Fast.Coloured.Text.Box.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.File.Explorer.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.File.Explorer.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Floating.Toolbars.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Gauges.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Gauges.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Global.Utilities.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Global.Utilities.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Language.Model.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Language.Model.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Notifications.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Notifications.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Outlook.Grid.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Outlook.Grid.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Palette.Utilities.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Palette.Utilities.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Persistence.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Persistence.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Resources.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Resources.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Task.Dialogs.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Task.Dialogs.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Theme.Switcher.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Theme.Switcher.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Toggle.Switch.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Toggle.Switch.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Toolkit.Control.Settings.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Toolkit.Control.Settings.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Utilities.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Utilities.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Wizard.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Extended.Wizard.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Krypton.Toolkit.Suite.Zip.Extractor.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Microsoft.WindowsAPICodePack.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Microsoft.WindowsAPICodePack.ExtendedLinguisticServices.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Microsoft.WindowsAPICodePack.Sensors.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Microsoft.WindowsAPICodePack.Shell.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Microsoft.WindowsAPICodePack.ShellExtensions.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Simple.MAPI.NET.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Simple.MAPI.NET.xml" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\System.ValueTuple.dll" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\Zip Extractor.exe" />
-      <DocumentationSource sourceFile="C:\Users\Peter William Wagner\Desktop\NuGet Packages\net48\ZipStorer.dll" />
     </DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>

@@ -326,3 +326,15 @@ OpenCover/
 *.old
 *.htm
 *.tokens
+*.css
+*.proj
+*.map
+*.json
+*.html
+*.js
+*.woff2
+*.ttf
+*.php
+*.aspx
+*.png
+*.ico
