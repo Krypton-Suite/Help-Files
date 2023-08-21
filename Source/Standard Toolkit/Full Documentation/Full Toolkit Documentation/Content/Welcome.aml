@@ -22,9 +22,9 @@
 					Using the Krypton Toolkit you can create a great looking application in just minutes.
 				</para>
 
-				<img src="images\KryptonToolkitExampleForm.png" />
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonToolkitExampleForm.png" />
 
-				<img src="images\KryptonToolkitExampleGroup" />
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonToolkitExampleGroup.png" />
 			</content>
 		</section>
 
@@ -38,7 +38,7 @@
 					It integrates with the Krypton Toolkit architecture to ensure a consistent look and feel.
 				</para>
 
-				<img src="images\KryptonRibbonExample.png" />
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonRibbonExample.png" />
 			</content>
 		</section>
 
