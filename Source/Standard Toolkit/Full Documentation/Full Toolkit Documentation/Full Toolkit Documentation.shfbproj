@@ -27,16 +27,6 @@
       <Argument Key="maxVersionParts" Value="" xmlns="" />
     </TransformComponentArguments>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Docking.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Docking.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Navigator.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Navigator.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Ribbon.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Ribbon.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Toolkit.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Toolkit.xml" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Workspace.dll" />
-      <DocumentationSource sourceFile="..\..\..\..\..\Standard-Toolkit\Bin\Debug\net48\Krypton.Workspace.xml" />
     </DocumentationSources>
     <HelpFileFormat>HtmlHelp1, MSHelpViewer, Website</HelpFileFormat>
     <SyntaxFilters>C#, Visual Basic</SyntaxFilters>
@@ -57,7 +47,7 @@
     <Preliminary>False</Preliminary>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <FooterText>For more information, please go to: https://github.com/Krypton-Suite/Standard-Toolkit</FooterText>
-    <CopyrightText>%28c%29 Krypton Suite 2017 - 2022</CopyrightText>
+    <CopyrightText>%28c%29 Krypton Suite 2017 - 2023</CopyrightText>
     <HtmlSdkLinkType>Msdn</HtmlSdkLinkType>
     <BinaryTOC>True</BinaryTOC>
     <IncludeFavorites>False</IncludeFavorites>

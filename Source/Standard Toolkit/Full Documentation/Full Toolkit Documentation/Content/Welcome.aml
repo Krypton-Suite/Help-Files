@@ -38,6 +38,8 @@
 					It integrates with the Krypton Toolkit architecture to ensure a consistent look and feel.
 				</para>
 
+				<br />
+
 				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonRibbonExample.png" />
 			</content>
 		</section>
@@ -50,6 +52,8 @@
 					Think of it as a traditional TabControl on steroids. It has many different modes of operation allowing you to achieve exactly the right
 					operation for your application. It integrates with the Krypton Toolkit architecture to ensure a consistent look and feel.
 				</para>
+
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonNavigatorExample.png" />
 			</content>
 		</section>
 
@@ -62,6 +66,8 @@
 					of the Krypton Navigator allowing a wide range of options for organizing and displaying pages. It integrates with the Krypton Toolkit architecture
 					to ensure a consistent look and feel.
 				</para>
+
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonWorkspaceExample.png" />
 			</content>
 		</section>
 
@@ -74,6 +80,8 @@
 					Krypton Workspace allowing a wide range of options for organizing and displaying pages. It integrates with the Krypton Toolkit architecture to
 					ensure a consistent look and feel.
 				</para>
+
+				<img src="https://raw.githubusercontent.com/Krypton-Suite/Documentation/main/Assets/Standard-Toolkit/KryptonDockingExampleCustomised.png" />
 			</content>
 		</section>
 
