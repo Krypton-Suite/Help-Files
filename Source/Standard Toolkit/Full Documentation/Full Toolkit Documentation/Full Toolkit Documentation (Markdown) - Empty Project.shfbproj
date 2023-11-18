@@ -38,7 +38,7 @@
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Krypton standard toolkit documentation</HelpTitle>
-    <HelpFileVersion>70.22.11.312</HelpFileVersion>
+    <HelpFileVersion>80.23.11.318</HelpFileVersion>
     <NamingMethod>Guid</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>

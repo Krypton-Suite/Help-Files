@@ -13,7 +13,7 @@
     <RootNamespace>Full_Toolkit_Documentation</RootNamespace>
     <Name>Full_Toolkit_Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
+    <FrameworkVersion>Cross-platform (.NET Core/.NET Standard)</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>Standard Toolkit Documentation</HtmlHelpName>
     <Language>en-US</Language>
@@ -38,7 +38,7 @@
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <HelpTitle>Krypton standard toolkt documentation</HelpTitle>
-    <HelpFileVersion>5.550</HelpFileVersion>
+    <HelpFileVersion>80.23.11.318</HelpFileVersion>
     <NamingMethod>Guid</NamingMethod>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <RootNamespaceContainer>False</RootNamespaceContainer>
@@ -47,6 +47,7 @@
     <Preliminary>False</Preliminary>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <FooterText>For more information, please go to: https://github.com/Krypton-Suite/Standard-Toolkit</FooterText>
+    <CopyrightText>%28c%29 Krypton Suite 2017 - 2023</CopyrightText>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
